@@ -3,6 +3,7 @@
 # NFL
 
 ---
+
 Title: NFL <br>
 Type: Homework<br>
 Modified by: Karolin Rafalski, Thom Page <br>
@@ -16,16 +17,13 @@ You are provided with a schema file [schema.sql](nfl_seed_data/schema.sql) and t
 `players.sql`, `teams.sql` that are also in the `nfl_seed_data` folder. Create a new database called `nfl` and use the schema and seed file to populate your database.
 
 <hr>
-&#x1F534; "Commit 1: NFL db seeded"
 <hr>
-
 
 Record your answers to Step 3 in a file called [nfl.sql](nfl.sql).
 
 _Challenge_: Complete each part with a single SQL expression. That is
 possible, but for some queries, it will involve learning how to use compound SQL
 expressions.
-
 
 ### Queries
 
@@ -37,7 +35,6 @@ Some queries may require more than one command (i.e. you may need to get informa
 4.  The total number of players in the NFL
 
 <hr>
-&#x1F534; "Commit: NFL queries 1"
 <hr>
 
 5.  The team names and head coaches of the NFC North and AFC East
@@ -46,7 +43,6 @@ Some queries may require more than one command (i.e. you may need to get informa
 8.  The names and positions of players with a salary above 10_000_000
 
 <hr>
-&#x1F534; "Commit: NFL queries 2"
 <hr>
 
 9.  The player with the highest salary in the NFL
@@ -54,7 +50,6 @@ Some queries may require more than one command (i.e. you may need to get informa
 11. The average salary for a DE in the nfl
 
 <hr>
-&#x1F534; "Commit: NFL queries 3"
 <hr>
 
 ## Hungry For More
@@ -66,8 +61,8 @@ EXAMPLE
 > The names of all the players on the Buffalo Bills
 
 ```sql
-SELECT players.name, teams.name 
-FROM players, teams 
+SELECT players.name, teams.name
+FROM players, teams
 WHERE players.team_id=teams.id AND teams.name LIKE 'Buffalo Bills';
 ```
 
@@ -75,13 +70,7 @@ WHERE players.team_id=teams.id AND teams.name LIKE 'Buffalo Bills';
 14. The player with the lowest salary on the Green Bay Packers
 
 <hr>
-&#x1F534; COMMIT 4<br>
-"Commit: NFL - HFM"
+
 <hr>
 
-
-
 =======
-
-
-
