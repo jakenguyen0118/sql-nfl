@@ -1,5 +1,3 @@
-![ga](http://mobbook.generalassemb.ly/ga_cog.png)
-
 # NFL
 
 ---
@@ -19,7 +17,7 @@ You are provided with a schema file [schema.sql](nfl_seed_data/schema.sql) and t
 <hr>
 <hr>
 
-Record your answers to Step 3 in a file called [nfl.sql](nfl.sql).
+Record your answers in a file called [nfl.sql](nfl.sql).
 
 _Challenge_: Complete each part with a single SQL expression. That is
 possible, but for some queries, it will involve learning how to use compound SQL
