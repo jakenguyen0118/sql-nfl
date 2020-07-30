@@ -71,4 +71,6 @@ WHERE players.team_id=teams.id AND teams.name LIKE 'Buffalo Bills';
 
 <hr>
 
-=======
+## Submission Guidelines
+- :heavy_check_mark: Submit your work via [this google form](https://docs.google.com/forms/d/e/1FAIpQLSezWVG8OLr6ZxmRNOwZ6xsoYO5lu_7L1LTWA3X6iclG4iG_Hw/viewform).
+
